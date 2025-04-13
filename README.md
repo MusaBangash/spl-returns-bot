@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# SPL Returns Bot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, user-friendly web application for managing product returns for SPL (Supplier Parts Limited). This chatbot-based interface provides a seamless and enjoyable return process with full transparency.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Modern UI**: Clean, intuitive interface with subtle design elements
+- **Chat Interface**: Conversational bot to guide users through the return process
+- **Returns Dashboard**: Track and manage all return requests
+- **Email Integration**: Receive updates on return status via email
+- **Transparent Process**: Clear visibility into return status, reasons, and any applicable fees
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (v14.0 or higher)
+- npm (v6.0 or higher)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/spl-returns-bot.git
+cd spl-returns-bot
+```
 
-### `npm run build`
+2. Install dependencies
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open your browser and navigate to `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+- **React**: Frontend library for building the user interface
+- **TypeScript**: Type-safe JavaScript
+- **Material UI**: Component library for consistent, modern UI elements
+- **React Router**: Navigation and routing
+- **Context API**: State management
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Application Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/components`: Reusable UI components
+  - `auth`: Authentication components
+  - `common`: Common components like Header, Layout
+  - `returns`: Return-specific components
+  - `dashboard`: Dashboard components
+- `src/context`: React Context providers for global state
+- `src/pages`: Page components
+- `src/services`: API services
+- `src/utils`: Utility functions
+- `src/theme`: Theme configuration
+- `src/types`: TypeScript type definitions
+- `src/mock-data`: Mock data for development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Login Credentials (Demo Only)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+For demonstration purposes, you can use the following credentials:
 
-## Learn More
+- **Email**: john.doe@example.com
+- **Password**: any password will work in the demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Built files can be generated with:
+
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `build/` directory, ready for deployment to any static hosting service.
+
+## Future Enhancements
+
+- Integration with OpenAI or Llama for advanced conversational capabilities
+- Real-time tracking of return shipments
+- Mobile app version with push notifications
+- Dashboard for administrators to manage returns
+
+## License
+
+This project is proprietary and confidential.
+
+## Contact
+
+For questions or support, please contact [support@example.com](mailto:support@example.com).
