@@ -86,8 +86,8 @@ The build artifacts will be stored in the `build/` directory, ready for deployme
 
 ## License
 
-This project is proprietary and confidential.
+This project is a demo.
 
 ## Contact
 
-For questions or support, please contact [support@example.com](mailto:support@example.com).
+For questions or support, please contact mmusakbangash@gmail.com
